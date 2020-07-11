@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CMSSBrokerPortalV1">
+  
+ <listeners>
+ 	 <listener class-name="brokerPortal.utilities.Reporting"/>
+  </listeners>
+  
+  
+  <test name="CMSSBrokerPortal Test"> 
+      
+      <parameter name="browser" value="firefox"/>
+      <classes>
+      
+     	<class name="brokerPortal.testCases.TC_013_RemortgageResidentialApplicationMultiApplicant"/>
+           
+      <!-- <class name="brokerPortal.testCases.TC_001_BrokerPortalLogin"/>  -->
+       <!-- <class name="brokerPortal.testCases.TC_002_BrokerRegistrationPage"/>  -->
+       <!--  <class name="brokerPortal.testCases.TC003_InitialQuestions"/>   -->
+       <!-- <class name="brokerPortal.testCases.TC_004_MortgageIllustrationPage"/> -->
+        <!--  <class name="brokerPortal.testCases.TC_005_DecisionInPrinciplePage"/> -->
+	      <!-- <class name="brokerPortal.testCases.TC_006_PurchaseResidentialApplicationSingleApplicant"/> -->
+	      <!-- <class name="brokerPortal.testCases.TC_007_PurchaseBTLApplicationSingleApplicant"/> -->
+       <!-- <class name="brokerPortal.testCases.TC_008_PurchaseLTBApplicationSingleApplicant"/> -->
+       <!-- <class name="brokerPortal.testCases.TC_009_RemortgageBTLApplicationSingleApplicant"/> -->
+       <!-- <class name="brokerPortal.testCases.TC_010_PurchaseResidentialApplicationMultiApplicant"/> -->
+       
+       <!-- <class name="brokerPortal.testCases.TC_011_RemortgageBTLApplicationSingleApplicantMultiComponant"/> -->
+       <!-- <class name="brokerPortal.testCases.TC_012_RemortgageLTBApplicationMultiApplicant"/> -->
+       <!-- <class name="brokerPortal.testCases.TC_013_RemortgageResidentialApplicationMultiApplicant"/> -->
+       <!-- <class name="brokerPortal.testCases.TC_DDT_BrokerLogin"/> -->
+      
+      </classes>
+  </test> 
+   
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CMSSBrokerPortalV1]">
+  <listeners>
+    <listener class-name="brokerPortal.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="CMSSBrokerPortal Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="brokerPortal.testCases.TC_013_RemortgageResidentialApplicationMultiApplicant">
+        <methods>
+          <include name="tearDown"/>
+          <include name="RemortgageResidentialApplicationMultiApplicant"/>
+        </methods>
+      </class> <!-- brokerPortal.testCases.TC_013_RemortgageResidentialApplicationMultiApplicant -->
+    </classes>
+  </test> <!-- CMSSBrokerPortal Test(failed) -->
+</suite> <!-- Failed suite [CMSSBrokerPortalV1] -->
